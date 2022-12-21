@@ -5,13 +5,7 @@ const toogleClose = document.getElementById("close");
 const phones = document.getElementById("phones");
 const menu = document.getElementById("menu")
 const Nav = document.getElementById("nav-nav") 
-console.log(Nav)
-
-window.onload = function() {
-    console.log(menu)
-    console.log(body)
-}
-
+const width = window.innerWidth;
 
 
 function handleElements () {
@@ -63,9 +57,14 @@ function handleElements () {
     }
 }
 
-
 handleElements()
 
 
 
     
+
+if (width > 600){
+
+} else if (width < 600) {
+
+}
